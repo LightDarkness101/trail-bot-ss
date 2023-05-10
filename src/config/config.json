@@ -1,0 +1,16 @@
+{
+    "suggestionChannel": "706717471025135657",
+    
+    "permissions": {
+        "approveSuggestions": ["706719950202470471"],
+        "denySuggestions": ["706719950202470471"],
+        "implementSuggestions": ["706719950202470471"]
+    },
+    
+    "colors": {
+        "pending": "#0000FF",
+        "approved": "#00FF00",
+        "denied": "#FF0000",
+        "implemented": "#FFFF00"
+    }
+}
