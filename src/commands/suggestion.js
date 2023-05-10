@@ -94,7 +94,7 @@ module.exports = {
 			let suggestion = suggestionInfo.suggestion;
 			let status = suggestionInfo.status;
 
-			if (!status === "pending")
+			if (status !== "pending")
 				return interaction.reply({
 					content: `This suggestion has already been accepted/denied.`,
 					ephemeral: true,
@@ -151,7 +151,7 @@ module.exports = {
 			let suggestion = suggestionInfo.suggestion;
 			let status = suggestionInfo.status;
 
-			if (!status === "pending")
+			if (status !== "pending")
 				return interaction.reply({
 					content: `The suggestion must be pending to be denied.`,
 					ephemeral: true,
